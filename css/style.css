@@ -1,4 +1,4 @@
-.positioncontainer{
+.position-container{
     margin-top: 100px;
     margin-left: 10px;
 }
@@ -9,7 +9,8 @@
   margin-right: 10px;
 }
 .calcul{
-
+margin-top: 40px;
+margin-left: 100px;
 }
 .button1{
     width: 40px;
