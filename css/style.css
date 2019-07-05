@@ -6,11 +6,9 @@
     border: 2px solid black;
   border-radius: 12px;
   height: 450px;
-  margin-right: 10px;
+  margin-right: 0px;
 }
-.calcul{
-    
-}
+
 
 .title{
   margin-left: auto;
@@ -18,7 +16,7 @@
   width: max-content;
   background-color: red;
   margin-top: 10px;
-  font-size: 45px:
+  font-size: 30px;
 
 }
 .button1{
