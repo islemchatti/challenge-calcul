@@ -16,3 +16,20 @@ margin-left: 100px;
     width: 40px;
     height: auto;
 }
+.button2{
+    margin-top: 10px;
+    width: 100px;
+    height: auto;
+}
+
+#input2{
+    display: none;
+}
+#input3{
+    display:none;
+}
+#results{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
