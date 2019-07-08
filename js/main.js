@@ -1,3 +1,67 @@
+function change1(){
+    var color3 = document.getElementById("color3").value ;
+    var color4 = document.getElementById("color4").value ;
+    var deg1 = document.getElementById("number1").value;
+    var gradient1 = "linear-gradient("+deg1+ ","+  color3  + "," +  color4  +")";
+    document.body.style.backgroundImage= gradient1;
+}
+
+
+function change(){
+    var color1 = document.getElementById("color1").value ;
+    var color2 = document.getElementById("color2").value ;
+    var deg = document.getElementById("number").value;
+    var gradient = "linear-gradient("+deg+ ","+  color1  + "," +  color2  +")";
+    document.getElementById("changing").style.backgroundImage= gradient;
+    document.getElementById("changing1").style.backgroundImage= gradient;
+    document.getElementById("changing2").style.backgroundImage= gradient;
+    document.getElementById("changing3").style.backgroundImage= gradient;
+    document.getElementById("changing4").style.backgroundImage= gradient;
+    document.getElementById("changing5").style.backgroundImage= gradient;
+    document.getElementById("changing6").style.backgroundImage= gradient;
+    document.getElementById("changing7").style.backgroundImage= gradient;
+    document.getElementById("changing8").style.backgroundImage= gradient;
+    document.getElementById("changing9").style.backgroundImage= gradient;
+    document.getElementById("changing10").style.backgroundImage= gradient;
+    document.getElementById("changing11").style.backgroundImage= gradient;
+    document.getElementById("changing12").style.backgroundImage= gradient;
+    document.getElementById("changing13").style.backgroundImage= gradient;
+    document.getElementById("changing14").style.backgroundImage= gradient;
+    document.getElementById("changing15").style.backgroundImage= gradient;
+    document.getElementById("changing16").style.backgroundImage= gradient;
+    document.getElementById("changing17").style.backgroundImage= gradient;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function insert(num){
     document.getElementById("input").value=document.getElementById("input").value + num;
    
@@ -9,7 +73,7 @@ document.getElementById("input").value="";
 return operateur;
 }
 function somme(x,y){
-    return x + y; 
+    return (x*1) + (y*1); 
 }
 function diff(x,y){
     return x-y; 
@@ -52,6 +116,6 @@ function reset(){
     document.getElementById("input2").value="";
     document.getElementById("input3").value="";
 }
-function clear(){
+function clear1(){
     document.getElementById("results").value="";
 }
