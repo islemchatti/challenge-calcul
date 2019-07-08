@@ -110,7 +110,8 @@ function egale(){
         document.getElementById("input").value=mod(x,y);
      }
      var res=document.getElementById("input").value;
-     document.getElementById("results").value=document.getElementById("results").value+x+s+y+'='+ res;
+     var bla=document.getElementById("results").value+x+s+y+'='+ res;
+     document.getElementById("results").value= bla + "\r\n"
 }
 function reset(){
     document.getElementById("input").value="";

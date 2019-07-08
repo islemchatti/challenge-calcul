@@ -12,33 +12,46 @@
 }
 
 .calcul{
-  margin-top: 40px;
-  margin-left: 100px;
+  margin-top: 3vw;
+  margin-left: 3vw;
 }
 
 .button1{
-    width: 40px;
-    height: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 1px;
 }
 
 .button2{
   margin-top: 10px;
   width: 100px;
   height: auto;
+  border-radius: 5px;
+  margin-top: 290px;
+  margin-left: 45px;
 }
 
 #input2{
   display: none;
 }
 #input3{
-  display:none;
+  display:none;$
 }
 #results{
   margin-top: 20px;
   width: 100%;
-  height: auto;
   outline: none;
   border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+#input{
+margin: 10px;
+width: 200px;
+background-color:antiquewhite;
 }
 
 
@@ -149,6 +162,9 @@
   border-radius: 15px;
   outline: none;
   padding-left: 3px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .button-position{
@@ -158,8 +174,35 @@
 
 body{
   height: 84.75vh;
+  background-color: rgb(170, 170, 170);
 }
 
 input:focus{
   outline: none;
+}
+
+
+
+.buttonstyle:hover{
+ background-position: right center; 
+}
+
+.button-style {
+  background-image: linear-gradient(to right, #780206 0%, #061161 51%, #780206 100%);
+  color: white;
+}
+
+
+
+
+#number{
+  width: 150px;
+}
+
+#number1{
+  width: 150px;
+}
+
+button{
+  outline: none !important;
 }
