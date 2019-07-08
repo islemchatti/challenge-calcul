@@ -34,34 +34,6 @@ function change(){
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function insert(num){
     document.getElementById("input").value=document.getElementById("input").value + num;
    
@@ -109,7 +81,8 @@ function egale(){
         document.getElementById("input").value=mod(x,y);
      }
      var res=document.getElementById("input").value;
-     document.getElementById("results").value=document.getElementById("results").value+x+s+y+'='+ res;
+     var bla=document.getElementById("results").value+x+s+y+'='+ res;
+     document.getElementById("results").value= bla + "\r\n"
 }
 function reset(){
     document.getElementById("input").value="";
@@ -119,3 +92,11 @@ function reset(){
 function clear1(){
     document.getElementById("results").value="";
 }
+function hello(){
+    
+      if(document.getElementById("result").style.visibility=="hidden")
+    {document.getElementById("result").style.visibility="visible";}
+    else{
+        document.getElementById("result").style.visibility="hidden";  
+    }
+  }
